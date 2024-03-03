@@ -24,25 +24,14 @@ const HowItWorks = () => {
         "When you like something just mail us or text us on instagram available on the page. The best way to beautify your home",
       image: img3,
     },
-    {
-      step: "04",
-      tittle: "Text us once you want something to buy.",
-      description:
-        "When you like something just mail us or text us on instagram available on the page. The best way to beautify your home",
-      image: img3,
-    },
-    {
-      step: "05",
-      tittle: "Text us once you want something to buy.",
-      description:
-        "When you like something just mail us or text us on instagram available on the page. The best way to beautify your home",
-      image: img3,
-    },
   ];
 
   return (
     <>
-      <section className="  flex  justify-around items-center  md:mb-10 mb:5 mt-2">
+      <section
+        className="  flex  justify-around items-center  md:mb-10 mb:5 mt-2"
+        id="how"
+      >
         {" "}
         <div className="container mx-auto  md:px-16 md:py-7 px-8 py-4  ">
           {" "}
